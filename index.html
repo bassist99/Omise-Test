@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="title" content="Omise.co | Your Ultimate Online Store Platform">
+    <meta name="description" content="SIMPLE - EASY - SMOOTH, Your Ultimate Online Store Platform">
+    <meta property="og:title" content="Omise | Your Ultimate Online Store Platform">
+    <meta property="og:type" content="company">
+    <meta property="og:site_name" content="Omise">
+    <title>Omise.co | Your Ultimate Online Store Platform</title>
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+
+    <meta charset="utf-8">
+    <title>Omise | Ultimate store platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	  <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.vegas.css" />
+    <link href="css/colorbox.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container" style="height:88px; padding-top:25px;">
+           <!--<img class="brand-logo" alt="Omise" src="imgs/logo_nav.png">-->
+		     <div id="logo"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+
+     <form id="presignup" class="form-signin" data-validate="parsley" action="https://www.omise.co/presignup/liningup" method="post">
+        <div class="login_vdo">
+       		<a href="http://www.youtube.com/embed/-4nMorZt0dU?rel=0&autoplay=1" class="youtube"></a>
+	   		  <img src="imgs/play.png" alt="vdo banner"/>
+          
+        </div>
+        <div id="content">
+        <p id="content_text" style="opacity:0;">
+        
+        </p>
+        <hr>
+        <p style="opacity:0;"><br></p>
+        
+		<div class="radio-toolbar">  
+		    <input type="radio" id="radio1" name="radios" value="yes" checked>
+		    <label for="radio1">Yes</label>
+
+		    <input type="radio" id="radio2" name="radios" value="no">
+		    <label for="radio2" class="fR">No</label>		
+		</div>
+		<input type="text" class="input-block-level store-name" id="store_name" name="store_name" data-required="true" data-trigger="Store Name" placeholder="Store Name"  rel="popover"/>
+    <input type="text" class="input-block-level contact-name" name="contact_name" placeholder="Contact Name" data-required="true">
+		<input type="email" class="input-block-level email-address" id="email" name="email" 
+      data-trigger="keyup" 
+      data-required="true" 
+      data-remote="/presignup/liningup/validate_email"  
+      data-remote-method="POST"
+      data-type="email" 
+      data-error-message="This email is already registered"
+      placeholder="Email Address" />
+      
+ 	    <input type="hidden" id="language" name="language" value="en">
+
+<!--
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+-->
+        <button class="btn btn-large btn-primary" type="submit">Line Up</button>
+        <!-- <a href="*" class="*"><p>forgot your password</p></a> -->
+        </div>
+      </form>
+      
+      
+      
+      </div><!-- end page content -->
+      
+
+      <div id="push"></div>
+    </div> <!-- end wrap -->
+
+    <div id="footer">
+      <div class="container">
+       <ul class="nav-footer">
+       <li><a href="http://omise.co" class="omise">Omise</a></li>
+       <li><a href="http://omiseco.tumblr.com" class="omise" target="_blank">Blog</a></li>
+       <li><a href="mailto:contact@omise.co" class="omise">Contact</a></li>
+       <li><a href="http://www.facebook.com/Omiseco" target="_blank" class="f_nav fb" target="_blank"></a></li>
+       <li><a href="http://twitter.com/omisetw" target="_blank" class="f_nav tw" target="_blank"></a></li>
+       </ul>
+       <div id="copy"><a href="#" class="act ln_en">EN</a> / <a href="#" class="ln_th">TH</a> <span>© 2013 Omise Co., Ltd. All rights reserved.</span></div> 
+      </div>
+    </div>
+  
+    <!--</div>
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.vegas.js"></script>
+    <script type="text/javascript" src="js/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index_lang.js"></script>
+    <script type="text/javascript" src="js/parsley.js"></script>
+    <script type="text/javascript" src="js/retina.js"></script>
+
+  </body>
+</html>
